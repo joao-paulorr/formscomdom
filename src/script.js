@@ -1,4 +1,4 @@
 function alerta() {
-    alert("olá mundo")
+    alert("fodase oxi")
 
 }
