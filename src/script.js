@@ -1,4 +1,4 @@
 function alerta() {
-    alert("fodase oxi")
-    document.getElementsByTagName("h1")[0].innerText = "Essa é minha página de login"
+    const user = document.getElementsByTagName("input")[0].value
+    const senha = document.getElementsByTagName("input")[1].value
 }
