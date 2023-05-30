@@ -12,9 +12,6 @@ function alerta() {
 }
 
 function quadrado() {
-    alert("Saiu!")
-    const quadrado = document.getElementById("quadrado")
-}
-function quadradoa() {
-    alert("Entrou!")
+    let quadrado = document.getElementById("quadrado")
+    quadrado.style.backgroundColor = prompt("Qual é a cor? digite em inglês")
 }
