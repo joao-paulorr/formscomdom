@@ -13,4 +13,5 @@ function alerta() {
 
 function quadrado() {
     alert("Saiu!")
+    const quadrado = document.getElementById("quadrado")
 }
