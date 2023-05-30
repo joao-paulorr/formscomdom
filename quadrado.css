@@ -1,7 +1,7 @@
 .quadrado {
     width: 30px;
     height: 30px;
-    border: 25px solid;
+    border: 70px solid;
     border-color: red;
     align-items: center;
     justify-content: center;
