@@ -1,3 +1,4 @@
-function formulario() {
+function alerta() {
+    alert("Olá Mundo")
 
 }
