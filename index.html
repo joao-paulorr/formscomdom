@@ -11,16 +11,20 @@
 
 <body>
     <script src="src/script.js"></script>
-    <nav id="form">
-        <h1>Login</h1>
-        <form>
-            <label>Usuário</label>
-            <input type="text" required></br>
-            <label>Senha</label>
-            <input type="text" required></br>
-            <button onclick="alerta()">Enviar</button>
-        </form>
-    </nav>
+    <div class="form">
+        <div class="title">Login</div>
+        <div class="input-container ic1">
+            <input id="firstname" class="input" type="text"/>
+            <div class="cut"></div>
+            <label for="firstname" class="placeholder">Usuário</label>
+        </div>
+        <div class="input-container ic2">
+            <input id="lastname" class="input" type="text"/>
+            <div class="cut"></div>
+            <label for="lastname" class="placeholder">Senha</label>
+        </div>
+        <button type="text" class="submit" onclick="alerta()">Enviar</button>
+    </div>
 </body>
 
 </html>
