@@ -15,3 +15,6 @@ function quadrado() {
     alert("Saiu!")
     const quadrado = document.getElementById("quadrado")
 }
+function quadradoa() {
+    alert("Entrou!")
+}
