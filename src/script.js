@@ -1,4 +1,4 @@
 function alerta() {
-    alert("Olá Mundo")
+    alert("olá mundo")
 
 }
