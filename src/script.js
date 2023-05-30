@@ -13,5 +13,4 @@ function alerta() {
 
 function quadrado() {
     alert("Saiu!")
-    const quadrado = 
 }
