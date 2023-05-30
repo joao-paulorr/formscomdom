@@ -10,3 +10,7 @@ function alerta() {
         alert("usuário invalido. vai tomar no seu cu")
     }
 }
+
+function quadrado() {
+    alert("Saiu!")
+}
