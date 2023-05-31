@@ -10,3 +10,4 @@ function alerta() {
         alert("usuário invalido. vai tomar no seu cu")
     }
 }
+
