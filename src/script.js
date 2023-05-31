@@ -12,4 +12,18 @@ function alerta() {
 }
 
 var luz = 1
-var cm = 
+var cm = 180
+
+switch (luz) {
+    case 1:
+        res = cm * 2.50
+        break
+    case 2:
+        res1 = cm * 1.35
+        break
+    case 3:
+        res2 = cm * 0.88
+        break
+    default:
+        window.document.write("Valor Inválido")
+}
