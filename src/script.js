@@ -10,8 +10,3 @@ function alerta() {
         alert("usuário invalido. vai tomar no seu cu")
     }
 }
-
-function quadrado() {
-    const quadrado = document.getElementsById("quadrado")
-    
-}
