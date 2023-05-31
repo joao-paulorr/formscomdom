@@ -11,18 +11,21 @@ function alerta() {
     }
 }
 
-var luz = 2
-var cm = 180
+var luz = prompt("caso 1, 2 ou 3?")
+var cm = 750
 
 switch (luz) {
-    case 1:
+    case "1":
         res = cm * 2.50
+        window.document.write(res)
         break
-    case 2:
-        res1 = cm * 1.35
+    case "2":
+        res = cm * 1.35
+        window.document.write(res)
         break
-    case 3:
-        res2 = cm * 0.88
+    case "3":
+        res = cm * 0.88
+        window.document.write(res)
         break
     default:
         window.document.write("Valor Inválido")
