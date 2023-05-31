@@ -11,22 +11,18 @@
 </head>
 
 <body>
-    <div class="form">
-        <form>
-            <h1>Combustível</h1>
-            <div class="input-container ic1">
-                <label class="placeholder" id="gas">Quantidade de combustível que serão comprados:</label><br>
-                <input class="input" type="number" id="gas" required />
-            </div>
-            <label id="tipo">Tipo de Combustível</label><br>
-            <select id="tipo">
-                <option value="1">Gasolina Comum</option>
-                <option value="2">Gasolina Aditivada</option>
-                <option value="3">Etanol</option>
-            </select><br>
-            <button type="text" class="submit" onclick="combustivel()">Enviar</button>
-        </form>
-    </div>
+    <form id="comb">
+        <h1>Combustível</h1>
+        <label id="gas">Quantidade de combustível que serão comprados:</label><br>
+        <input class="input" type="number" id="gas" required />
+        <label id="tipo">Tipo de Combustível</label><br>
+        <select id="tipo">
+            <option value="1">Gasolina Comum</option>
+            <option value="2">Gasolina Aditivada</option>
+            <option value="3">Etanol</option>
+        </select><br>
+        <button type="text" class="submit" onclick="combustivel()">Enviar</button>
+    </form>
 </body>
 
 </html>
