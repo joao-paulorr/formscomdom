@@ -11,7 +11,7 @@ function alerta() {
     }
 }
 
-var luz = 1
+var luz = 2
 var cm = 180
 
 switch (luz) {
