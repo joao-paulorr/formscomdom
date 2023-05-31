@@ -11,20 +11,19 @@ function alerta() {
     }
 }
 
-var luz = prompt("caso 1, 2 ou 3?")
-var cm = 750
-
-switch (luz) {
+var gas = prompt("Quanto vai comprar de combustivel?")
+var tipo = prompt("Qual o tipo? Alcool (1), Gasolina (2), Diesel (3)")
+switch (tipo) {
     case "1":
-        res = cm * 2.50
+        res = gas * 3.49
         window.document.write(res)
         break
     case "2":
-        res = cm * 1.35
+        res = gas * 5.03
         window.document.write(res)
         break
     case "3":
-        res = cm * 0.88
+        res = gas * 5.29
         window.document.write(res)
         break
     default:
