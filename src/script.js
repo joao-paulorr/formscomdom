@@ -12,10 +12,12 @@ function alerta() {
 }
 
 function combustivel() {
-    var tipo = form.document.getElementById('tipo').value;
-    var gas = form.document.getElementById('gas').value;
 
-    switch (tipo) {
+    var tipo = document.getElementById("tipo");
+    var valortipo = tipo.options[tipo.selectedIndex].value;
+    var gas = document.getElementById("gas").value;
+
+    switch (valortipo) {
         case "1":
             res = gas * 3.49;
             break;
@@ -27,7 +29,6 @@ function combustivel() {
             break;
         default:
             window.alert("Valor Inválido");
-            return;
     }
 
     var reais = new Intl.NumberFormat('pt-BR', { style: 'currency', currency: 'BRL' }).format(res);
