@@ -11,21 +11,25 @@ function alerta() {
     }
 }
 
-var gas = prompt("Quanto vai comprar de combustivel?")
-var tipo = prompt("Qual o tipo? Alcool (1), Gasolina (2), Diesel (3)")
-switch (tipo) {
-    case "1":
-        res = gas * 3.49
-        window.document.write(res)
-        break
-    case "2":
-        res = gas * 5.03
-        window.document.write(res)
-        break
-    case "3":
-        res = gas * 5.29
-        window.document.write(res)
-        break
-    default:
-        window.document.write("Valor Inválido")
+function combustivel() {
+    var tipo = form.document.getElementById('tipo').value;
+    var gas = form.document.getElementById('gas').value;
+
+    switch (tipo) {
+        case "1":
+            res = gas * 3.49;
+            break;
+        case "2":
+            res = gas * 5.03;
+            break;
+        case "3":
+            res = gas * 5.29;
+            break;
+        default:
+            window.alert("Valor Inválido");
+            return;
+    }
+
+    var reais = new Intl.NumberFormat('pt-BR', { style: 'currency', currency: 'BRL' }).format(res);
+    window.document.write("O valor do combustível é: " + reais);
 }

@@ -1,14 +1,34 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="src/style.css">
+    <link rel="stylesheet" href="src/switch.css">
     <script src="src/script.js"></script>
     <title>java</title>
 </head>
+
 <body>
-    
+    <div class="form">
+        <form>
+            <h1>Combustível</h1>
+            <div class="input-container ic1">
+                <label for="gas" class="placeholder" id="gas">Quantidade de combustível que serão comprados:</label>
+                <div class="cut"></div>
+                <input class="input" type="number" for="gas" id="gas" required />
+            </div>
+            <label for="tipo" id="tipo">Tipo de Combustível:</label><br>
+            <select id="tipo">
+                <option value="1">Gasolina Comum</option>
+                <option value="2">Gasolina Aditivada</option>
+                <option value="3">Etanol</option>
+            </select><br>
+    </div>
+    <button type="text" class="submit" onclick="combustivel()">Enviar</button>
+    </form>
+    </div>
 </body>
+
 </html>
