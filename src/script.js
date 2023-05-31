@@ -11,3 +11,5 @@ function alerta() {
     }
 }
 
+var luz = 1
+var cm = 
