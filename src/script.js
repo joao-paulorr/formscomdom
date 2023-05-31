@@ -3,8 +3,8 @@ function alerta() {
     const senha = document.getElementsByTagName("input")[1].value
 
 
-    if (user == "joaopaulorr" && senha == "umdoistres45") {
-        alert("Bem vindo, João!")
+    if (user == "joaopaulorr" && senha == "umdoistres45" || user == "soph" && senha == "123456" ) {
+        alert("te amo")
 
     } else {
         alert("usuário invalido. vai tomar no seu cu")
