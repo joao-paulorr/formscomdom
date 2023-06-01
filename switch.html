@@ -11,14 +11,13 @@
 </head>
 
 <body>
-    <form id="comb">
-        <h1>Login</h1>
-        <label class="label" id="usuario">Usuario</label><br>
-        <input class="input" type="text" id="usuario1" required /><br>
-        <label class="label" id="senha">Senha</label><br>
-        <input class="input" type="text">
-        <button type="text" class="submit" onclick="login()">Enviar</button>
-    </form>
+    <form>
+        <label for="user">Nome de usuário:</label><br>
+        <input type="text" id="user" name="user"><br><br>
+        <label for="senha">Senha:</label><br>
+        <input type="password" id="senha" name="senha"><br><br>
+        <button type="button" onclick="login()">Entrar</button>
+      </form>
 </body>
 
 </html>

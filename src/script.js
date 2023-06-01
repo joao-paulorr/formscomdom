@@ -12,20 +12,22 @@ function alerta() {
 }
 
 function login() {
-    const user = document.getElementsByTagName("input")[0].value
-    const senha = document.getElementsByTagName("input")[1].value
+    const user = document.getElementById("user").value;
+    const senha = document.getElementById("senha").value;
 
-    switch (user && senha) {
-        case "1":
-
-        case "2":
-
-        case "3":
-            
-        default:
-            window.alert("Usuario e/ou senha incorretos!");
+    switch (user) {
+        case "joaopaulorr":
+            if (senha === "7654321") {
+                alert(`Bem vindo, ${user}!`)
+            } else {
+                alert("Senha incorreta!");
+            }
+            break;
+        case "eduardo":
+            if (senha === "1234567") {
+                alert(`Bem vindo, ${user}!`)
+            } else {
+                alert("Senha incorreta!");
+            }
     }
-
-    var reais = new Intl.NumberFormat('pt-BR', { style: 'currency', currency: 'BRL' }).format(res);
-    window.document.write("O valor do combustível é: " + reais);
 }
