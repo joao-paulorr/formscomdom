@@ -29,5 +29,8 @@ function login() {
             } else {
                 alert("Senha incorreta!");
             }
+            break;
+        default:
+            alert("Usuario ou/e senha incorreto!")
     }
 }
