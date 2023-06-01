@@ -3,7 +3,7 @@ function alerta() {
     const senha = document.getElementsByTagName("input")[1].value
 
 
-    if (user == "joaopaulorr" && senha == "umdoistres45" || user == "soph" && senha == "123456" ) {
+    if (user == "joaopaulorr" && senha == "umdoistres45" || user == "soph" && senha == "123456") {
         alert("te amo")
 
     } else {
@@ -11,24 +11,19 @@ function alerta() {
     }
 }
 
-function combustivel() {
+function login() {
+    const user = document.getElementsByTagName("input")[0].value
+    const senha = document.getElementsByTagName("input")[1].value
 
-    var tipo = document.getElementById("tipo");
-    var valortipo = tipo.options[tipo.selectedIndex].value;
-    var gas = document.getElementById("gas").value;
-
-    switch (valortipo) {
+    switch (user && senha) {
         case "1":
-            res = gas * 3.49;
-            break;
+
         case "2":
-            res = gas * 5.03;
-            break;
+
         case "3":
-            res = gas * 5.29;
-            break;
+            
         default:
-            window.alert("Valor Inválido");
+            window.alert("Usuario e/ou senha incorretos!");
     }
 
     var reais = new Intl.NumberFormat('pt-BR', { style: 'currency', currency: 'BRL' }).format(res);
