@@ -48,3 +48,7 @@ function idade() {
         alert("Você não pode entrar em nenhuma das categorias!")
     }
 }
+
+function desconto() {
+    
+}
