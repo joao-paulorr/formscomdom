@@ -39,5 +39,11 @@ function idade() {
 }
 
 function desconto() {
-    
+    const total = document.getElementById("total").value;
+    const tipo = document.getElementById("tipo").value;
+
+    switch (tipo) {
+        case "Vip":
+
+    }
 }
