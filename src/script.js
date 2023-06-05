@@ -41,9 +41,18 @@ function idade() {
 function desconto() {
     const total = document.getElementById("total").value;
     const tipo = document.getElementById("tipo").value;
+    var vip = (total * 75) / 100
+    var funcionario = (total * 50) / 100
 
     switch (tipo) {
         case "Vip":
+            alert(`Seu total vai ser: ${vip}`)
+
+        case "Funcionário":
+            alert(`Seu total vai ser: ${funcionario}`)
+
+        default:
+            alert(`Seu total vai ser: ${total}`)
 
     }
 }
